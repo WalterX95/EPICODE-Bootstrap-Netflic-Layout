@@ -78,3 +78,119 @@ html,body {
     }
 
 }
+
+.footer {
+    padding: 20px 0;
+}
+.footer a {
+    color: #757575;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons i {
+    font-size: 24px;
+    margin-right: 15px;
+}
+.footer .service-code {
+    border: 1px solid #757575;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.footer .copyright {
+    margin-top: 20px;
+}
+
+.section-title {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+.movie-row {
+    display: flex;
+    overflow-x: none;
+}
+.movie-row img {
+    margin-right: 10px;
+    width: 200px;
+    height: 112px;
+}
+
+/*SECOND PAGE */
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    position: relative;
+}
+.profile-img img {
+    width: 100%;
+}
+.profile-img .edit-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 5px;
+}
+.btn-custom {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #444444;
+}
+.btn-outline-custom {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.btn-outline-custom:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+.form-control {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+}
+.form-control:focus {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    box-shadow: none;
+}
+.form-check-input {
+    background-color: #333333;
+    border: none;
+}
+.form-check-input:checked {
+    background-color: #333333;
+    border: none;
+}
+.form-check-input:checked::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ffffff;
+}
+.form-check-label {
+    margin-left: 10px;
+}
+
+.container-profile {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+}
+
+
+
